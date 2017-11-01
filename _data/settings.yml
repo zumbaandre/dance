@@ -54,7 +54,7 @@ skills:
 
 projects:
 - {name: Zumba, folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: Zumba, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Strong by Zumba, folder: 'proj-2', file: 'work/proj-2.html'}
 - {name: Zumba Step, folder: 'proj-3', file: 'work/proj-3.html'}
 - {name: Zumba Kids, folder: 'proj-4', file: 'work/proj-4.html'}
 - {name: Zumba Kids Jr, folder: 'proj-5', file: 'work/proj-5.html'}
