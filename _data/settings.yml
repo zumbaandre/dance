@@ -73,14 +73,14 @@ projects:
 
 clients:
 - {avatar: 'face-aaroni.jpg',
-  name: 'Scott Summers',
-  title: 'Director of Design, OnToText Ind.',
-  quote: '<p><strong>While we all felt that Travis was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often.</p>',
+  name: 'Jeanne Simpson',
+  title: 'Health Nokia',
+  quote: '<p><strong>Studies done all over the world link dance to mood improvement</strong> A bulk of research is dedicated to the emotional benefits of dance</p>',
   logo: 'logo1.png'}
 - {avatar: 'face-atariboy.jpg',
-  name: 'Hank McCoy',
-  title: 'Eater of Salad, Antartica Int.',
-  quote: '<p><strong>Working with Travis was the highlight of my career.</strong> Other moments of note were collecting the largest number of paperclips in the office, and winning a trophy for saying "uh huh, and then what?" 30 times in a row to my girlfriend without her noticing.</p>',
+  name: 'Markham Heid',
+  title: 'TIME Health',
+  quote: '<p><strong> Research supports the idea that dancing can curb anxiety</strong> Dancing seems to encourage social bonding and what psychologists call “self-other merging”</p>',
   logo: 'logo2.png'}
 - {avatar: 'face-jackiesaik.jpg',
   name: 'Stacy Lang',
