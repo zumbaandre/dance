@@ -10,7 +10,7 @@ email: ZumbaByAndre@gmail.com
 menu:
 - {name: About Me, url: '#about-me'}
 - {name: Work, url: '#work'}
-- {name: Study, url: '#study'}
+- {name: study, url: '#study'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
