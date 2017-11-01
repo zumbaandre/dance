@@ -1,10 +1,10 @@
 ---
-title: Typo International Design Talks Stuff
+title: ZUMBA
 ---
 
 ![Typo International]({{ site.github.url }}/assets/img/work/proj-1/img1.jpg)
 
-TYPO: International Design Talks is an annual event held in Berlin, London, and San Francisco. This promotional project is developed to market the event for the designindustry. The use of patterns, sophisticated color scheme and typography are applied for the print and mobile application.
+ZUMBA: A total workout, combining all elements of fitness – cardio, muscle conditioning, balance and flexibility, boosted energy and a serious dose of awesome each time you leave class.
 
 ![Typo International]({{ site.github.url }}/assets/img/work/proj-1/img2.jpg)
 ![Typo International]({{ site.github.url }}/assets/img/work/proj-1/img3.jpg)
