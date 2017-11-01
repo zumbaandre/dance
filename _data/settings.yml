@@ -57,11 +57,12 @@ blurb: >
 
 
 skills:
-- {name: Zumba, value: '10'}
-- {name: Zumba Step, value: '9'}
-- {name: Zumba  Kids, value: '10'}
-- {name: Zumba Kids Jr, value: '8'}
-- {name: Strong by Zumba, value: '9'}
+- {name: Cardio, value: '10'}
+- {name: Resistance training, value: '9'}
+- {name: Muscle conditioning, value: '10'}
+- {name: Flexibility, value: '8'}
+- {name: Balance, value: '9'}
+- {name: Toning, value: '10'}
 
 #-------------------------------
 # Work Section
