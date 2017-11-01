@@ -2,7 +2,7 @@ $(function() {
 	smoothScroll(300);
 	workBelt();
 	workLoad();
-	clientStuff();
+	studyStuff();
 
 	$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
 	$(".biglink").fitText(1.5);
@@ -63,43 +63,43 @@ function  workLoad() {
 
 
 
-function clientStuff() {
+function studyStuff() {
 
-  $('.client-logo, .client-button').click(function() {
+  $('.study-logo, .study-button').click(function() {
     var $this = $(this),
         position = $this.parent().children().index($this);
 
-    $('.client-unit').removeClass('active-client').eq(position).addClass('active-client');
-    $('.client-logo').removeClass('active-client').eq(position).addClass('active-client');
-    $('.client-button').removeClass('active-client').eq(position).addClass('active-client');
+    $('.study-unit').removeClass('active-study').eq(position).addClass('active-study');
+    $('.study-logo').removeClass('active-study').eq(position).addClass('active-study');
+    $('.study-button').removeClass('active-study').eq(position).addClass('active-study');
   });
 
 
-  $('.client-control-next, .client-control-prev').click(function() {
+  $('.study-control-next, .study-study-prev').click(function() {
 
     var $this = $(this),
-        curActiveClient = $('.clients-belt').find('.active-client'),
-        position = $('.clients-belt').children().index(curActiveClient),
-        clientNum = $('.client-unit').length;
+        curActivestudy = $('.study-belt').find('.active-study'),
+        position = $('.study-belt').children().index(curActivestudy),
+        studyNum = $('.study-unit').length;
 
-      if($this.hasClass('client-control-next')) {
+      if($this.hasClass('study-control-next')) {
 
-        if(position < clientNum -1){
-          $('.active-client').removeClass('active-client').next().addClass('active-client');
+        if(position < studyNum -1){
+          $('.active-study').removeClass('active-study').next().addClass('active-study');
         } else {
-          $('.client-unit').removeClass('active-client').first().addClass('active-client');
-          $('.client-logo').removeClass('active-client').first().addClass('active-client');
-          $('.client-button').removeClass('active-client').first().addClass('active-client');
+          $('.study-unit').removeClass('active-study').first().addClass('active-study');
+          $('.study-logo').removeClass('active-study').first().addClass('active-study');
+          $('.study-button').removeClass('active-study').first().addClass('active-study');
         }
 
       } else {
 
         if (position === 0) {
-          $('.client-unit').removeClass('active-client').last().addClass('active-client');
-          $('.client-logo').removeClass('active-client').last().addClass('active-client');
-          $('.client-button').removeClass('active-client').last().addClass('active-client');
+          $('.study-unit').removeClass('active-study').last().addClass('active-study');
+          $('.study-logo').removeClass('active-study').last().addClass('active-study');
+          $('.study-button').removeClass('active-study').last().addClass('active-study');
         } else {
-          $('.active-client').removeClass('active-client').prev().addClass('active-client');
+          $('.active-study').removeClass('active-study').prev().addClass('active-study');
         }
 
       }
@@ -244,15 +244,15 @@ function clientStuff() {
 				$ta.css('resize', 'horizontal');
 			}
 
-			// The mirror width must exactly match the textarea width, so using getBoundingClientRect because it doesn't round the sub-pixel value.
-			// window.getComputedStyle, getBoundingClientRect returning a width are unsupported, but also unneeded in IE8 and lower.
+			// The mirror width must exactly match the textarea width, so using getBoundingstudyRect because it doesn't round the sub-pixel value.
+			// window.getComputedStyle, getBoundingstudyRect returning a width are unsupported, but also unneeded in IE8 and lower.
 			function setWidth() {
 				var width;
 				var style = window.getComputedStyle ? window.getComputedStyle(ta, null) : false;
 
 				if (style) {
 
-					width = ta.getBoundingClientRect().width;
+					width = ta.getBoundingstudyRect().width;
 
 					if (width === 0 || typeof width !== 'number') {
 						width = parseInt(style.width,10);

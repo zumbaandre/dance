@@ -1,42 +1,42 @@
-<section class="section-clients">
+<section class="section-study">
 
-  <h3 id="clients">Study</h3>
+  <h3 id="study">study</h3>
 
-  <div class="clients-mobile-nav">
-    {% for client in site.data.settings.clients %}
-        <span class="client-button {% if forloop.first %}active-client{% endif %}"></span>
+  <div class="study-mobile-nav">
+    {% for study in site.data.settings.study %}
+        <span class="study-button {% if forloop.first %}active-study{% endif %}"></span>
     {% endfor %}
   </div>
 
-  <div class="clients-belt">
-    {% for client in site.data.settings.clients %}
-      <div class="client-unit {% if forloop.first %}active-client{% endif %}">
+  <div class="study-belt">
+    {% for study in site.data.settings.study %}
+      <div class="study-unit {% if forloop.first %}active-study{% endif %}">
 
-        <figure class="client-face">
-          <img src="{{ site.github.url }}/assets/img/clients/{{ client.avatar }}" alt="client-face">
+        <figure class="study-face">
+          <img src="{{ site.github.url }}/assets/img/study/{{ study.avatar }}" alt="study-face">
           <figcaption>
-            <strong class="client-name">{{ client.name }}</strong>
-            <em class="client-title">{{ client.title }}</em>
+            <strong class="study-name">{{ study.name }}</strong>
+            <em class="study-title">{{ study.title }}</em>
           </figcaption>
         </figure>
 
-        <div class="client-content">
-          <div class="client-quote-mark">{% include icons/icon-quote-mark.html %}</div>
-          {{ client.quote }}
+        <div class="study-content">
+          <div class="study-quote-mark">{% include icons/icon-quote-mark.html %}</div>
+          {{ study.quote }}
         </div>
       </div>
     {% endfor %}
 
   </div>
 
-  <div class="client-controls">
-    <div class="client-control-next">{% include icons/icon-next.html %}</div>
-    <div class="client-control-prev">{% include icons/icon-prev.html %}</div>
+  <div class="study-controls">
+    <div class="study-control-next">{% include icons/icon-next.html %}</div>
+    <div class="study-control-prev">{% include icons/icon-prev.html %}</div>
   </div>
 
-  <div class="clients-logos">
-    {% for client in site.data.settings.clients %}
-        <img class="client-logo {% if forloop.first %}active-client{% endif %}" src="{{ site.github.url }}/assets/img/clients/{{ client.logo }}" align="{{ client.logo }}">
+  <div class="study-logos">
+    {% for study in site.data.settings.study %}
+        <img class="study-logo {% if forloop.first %}active-study{% endif %}" src="{{ site.github.url }}/assets/img/study/{{ study.logo }}" align="{{ study.logo }}">
     {% endfor %}
   </div>
 

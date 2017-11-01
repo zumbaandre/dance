@@ -81,7 +81,7 @@
 
 
 // Controls
-.client-controls
+.study-controls
   +position(absolute, 0px 0px 0px 0px)
   z-index: 2
 
@@ -93,14 +93,14 @@
     path
       fill: $accent
 
-  .client-control-next
+  .study-control-next
     +position(absolute, 50% 10px null null)
 
-  .client-control-prev
+  .study-control-prev
     +position(absolute, 50% null null 10px)
 
-// clients-mobile-nav
-.clients-mobile-nav
+// study-mobile-nav
+.study-mobile-nav
   text-align: center
   position: relative
   z-index: 3
@@ -114,43 +114,43 @@
     margin: 0px 10px
     cursor: pointer
 
-    &.active-client
+    &.active-study
       border-color: $accent
 
 
 
 
 @media (max-width: 850px)
-  .clients-logos
+  .study-logos
     +flex-wrap(wrap)
 
-  .clients-belt
+  .study-belt
     overflow-x: hidden
 
-    .client-unit.active-client
+    .study-unit.active-study
       display: block
       position: relative
       margin-left: auto
       left: auto
 
-      .client-face
+      .study-face
         margin-bottom: 30px
 
-      .client-content
+      .study-content
         padding: 0px 30px
         max-width: 400px
         margin: 0px auto
 
-      .client-quote-mark
+      .study-quote-mark
         left: 6px
 
-  .clients-logos
+  .study-logos
     display: none
 
-  .clients-mobile-nav
+  .study-mobile-nav
     display: block
 
 
 @media (max-width: 600px)
-  .client-controls
+  .study-controls
     display: none
