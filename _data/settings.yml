@@ -68,7 +68,7 @@ projects:
 #-------------------------------
 # Study Section
 
-clients:
+study:
 - {avatar: 'face-aaroni.jpg',
   name: 'Jeanne Simpson',
   title: 'Health Nokia',
