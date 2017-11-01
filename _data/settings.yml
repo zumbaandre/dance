@@ -72,22 +72,22 @@ study:
 - {avatar: 'face-Simpson.jpg',
   name: 'Jeanne Simpson',
   title: 'Health Nokia',
-  quote: '<p><strong>Studies done all over the world link dance to mood improvement</strong> A bulk of research is dedicated to the emotional benefits of dance</p>',
+  quote: '<p><strong>Studies done all over the world link dance to mood improvement.</strong> A bulk of research is dedicated to the emotional benefits of dance</p>',
   logo: 'logo1.png'}
 - {avatar: 'face-Heid.jpg',
   name: 'Markham Heid',
   title: 'TIME Health',
-  quote: '<p><strong> Research supports the idea that dancing can curb anxiety</strong> Dancing seems to encourage social bonding and what psychologists call “self-other merging”</p>',
+  quote: '<p><strong> Research supports the idea that dancing can curb anxiety.</strong> Dancing seems to encourage social bonding and what psychologists call “self-other merging”</p>',
   logo: 'logo2.png'}
 - {avatar: 'face-Finn.jpg',
   name: 'Stephanie Finn',
   title: 'Registered Nurse, CentreSpring MD',
-  quote: '<p><strong>Not only will you be staying flexible, dancing will help tone your muscles, improve heart and lung function</strong> and if you dance enough to work up a sweat you just increased detox potential</p>',
+  quote: '<p><strong>Not only will you be staying flexible, dancing will help tone your muscles, improve heart and lung function,</strong> and if you dance enough to work up a sweat you just increased detox potential</p>',
   logo: 'logo3.png'}
 - {avatar: 'face-Tarsy.jpg',
   name: 'Daniel Tarsy, MD',
   title: 'HMS professor of neurology at BIDMC',
-  quote: '<p><strong>Studies show that dance helps reduce stress, increases levels of the feel-good hormone serotonin, and helps develop new neural connections</strong>In a small study undertaken in 2012, researchers at North Dakota’s Minot State University found that the Latin-style dance program known as Zumba improves mood and certain cognitive skills, such as visual recognition and decision-making.</p>',
+  quote: '<p><strong>Studies show that dance helps reduce stress, increases levels of the feel-good hormone serotonin, and helps develop new neural connections.</strong> North Dakota’s Minot State University 2012 study found that dance program known as Zumba improves mood and certain cognitive skills, such as visual recognition and decision-making.</p>',
   logo: 'logo4.png'}
 
 
