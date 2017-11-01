@@ -3,7 +3,7 @@
 
 title: Zumba By Andre
 description: Zumba Fitness Instructor
-email: devtipsfordesigners@gmail.com
+email: ZumbaByAndre@gmail.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
@@ -46,27 +46,24 @@ blurb: >
 
 
 skills:
-- {name: Zumba, value: '9'}
-- {name: Zumba Step, value: '7'}
+- {name: Zumba, value: '10'}
+- {name: Zumba Step, value: '9'}
 - {name: Zumba  Kids, value: '10'}
-- {name: Zumba Kids Jr, value: '6'}
-- {name: Strong by Zumba, value: '7'}
-- {name: Visual Design, value: '5'}
-- {name: UX Design, value: '8'}
-- {name: Programming, value: '6'}
+- {name: Zumba Kids Jr, value: '8'}
+- {name: Strong by Zumba, value: '9'}
 
 #-------------------------------
 # Work Section
 
 projects:
-- {name: TYPO International Design Talks, folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: City-IN website concept, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Crispy Icons, folder: 'proj-3', file: 'work/proj-3.html'}
-- {name: Flat Mobile UI/UX Concept, folder: 'proj-4', file: 'work/proj-4.html'}
-- {name: Fresh It Up, folder: 'proj-5', file: 'work/proj-5.html'}
-- {name: Timeline Page, folder: 'proj-6', file: 'work/proj-6.html'}
-- {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
-- {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
+- {name: Zumba, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Zumba, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Zumba Step, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Zumba Kids, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Zumba Kids Jr, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Strong by Zumba, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: Strong by Zumba, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Zumba Kids Jr, folder: 'proj-8', file: 'work/proj-8.html'}
 
 
 
